@@ -1,0 +1,289 @@
+@media screen and (min-width: 1440px) and (max-width: 1599px){     }
+
+* {
+	margin-top:0;
+	padding:0;
+	box-sizing: border-box;
+}
+ul li {
+	margin:0;
+	padding:0;
+	list-style-type: none;
+}
+a {
+	color: inherit;
+	font: inherit;
+	text-decoration: none;
+}
+img {
+	width:100%;
+	margin-left: 450px;
+}
+img2 {
+	width:100%;
+	margin-left: 0px;
+}
+button {
+	display: block;
+	border: none;
+	border-radius: 10px;
+	color:#fff;
+	font: 700 17px 'Poppins', sans-serif;
+	cursor: pointer;
+}
+body {
+	padding: 0 5px;
+	color: #696871;
+	font: 500 20px 'Poppins-ExtraLight', sans-serif;
+}
+.hidden {
+	display: none;
+	text-align:center;
+}
+.container {
+	max-width: 1110px;
+	margin: 0 auto;
+}
+#header-main {
+	padding: 30px 0 60px;
+}
+.header {
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+}
+.logo {
+	width: 200px;
+}
+
+.home {
+	display: flex;
+	justify-content: space-between;
+}
+.home-left {
+	width: 460px;
+}
+.home-left>b {
+	display: block;
+	width: 50%;
+	margin-bottom: 30px;
+	color: black;
+	font-family: 'DM SANS', Arial, sans-serif;
+	font-weight: 650;
+	font-size: 80px;
+	line-height: 77px;
+}
+.home-left>p {
+	font-family: 'Comfortaa', Arial, sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: 30px;
+	margin-bottom: 30px;
+}
+.home-right{
+	position: relative;
+	overflow-x: hidden;
+	width:580px;
+	height: 644px;
+}
+.home-right>myframe {
+	position: absolute;
+	left: -10px;
+}
+.header___btn {
+	width: 180px;
+	height: 60px;
+	background-color: #1E90FF;
+	transition: .4s;
+	margin-left:0px;
+	margin-top:20px;
+}
+.myframe {
+border-radius: 10px;
+box-shadow: 0 0 7px 3px #1E90FF;
+text-indent: 40px;
+padding: 20px 20px 10px 20px;
+margin: 50px auto;
+width: 400px;
+margin-right: 75px;
+margin-top:25px;
+}
+.shislo {
+	font-family: 'Comfortaa', Arial, sans-serif;
+	padding-left: 80px;
+	padding-top: 12px;
+}
+.shislo2 {
+	font-family: 'Comfortaa', Arial, sans-serif;
+	padding-left: 85px;
+	padding-top: 12px;
+}
+.shislo3 {
+	font-family: 'Comfortaa', Arial, sans-serif;
+	padding-left: 130px;
+	padding-top: 12px;
+}
+.shislo4 {
+	font-family: 'Comfortaa', Arial, sans-serif;
+	padding-left: 45px;
+	padding-top: 10px;
+}
+.header__btn {
+	width: 180px;
+	height: 60px;
+	background-color: #1E90FF;
+	transition: .4s;
+	margin-left:93px;
+	margin-top:45px;
+	margin-right:20px;
+}
+.header__btn:hover {
+	background-color: #00BFFF;
+}
+#number {
+	margin-top: 12px;
+	margin-left: 80px;
+	width:204px;
+	height: 29px;
+	border-radius: 10px;
+    border-top-width: 1px;
+    border-left-width: 1px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+
+}
+#m {
+	margin-top: 12px;
+	margin-left: 80px;
+	width:204px;
+	height: 29px;
+	border-radius: 10px;
+}
+#n {
+	margin-top: 12px;
+	margin-left: 80px;
+	width:204px;
+	height: 29px;
+	border-radius:10px;
+}
+
+
+/*Subscription*/
+
+#subscription-section {
+	padding-bottom: 85px;
+}
+.subscription {
+	display: flex;
+	justify-content: space-between;
+}
+.subscription-left {
+	width:350px;
+}
+.subscription-right {
+	width:600px;
+	padding-top:120px;
+}
+.section-header {
+	margin-bottom: 15px;
+	color: #19191B;
+	font-size:50px;
+	font-weight: 700;
+	margin-top:30px;
+	padding-top:15px;
+}
+.section-link {
+	color: #5454D4;
+	font-size:18px;
+	transition: .4s;
+} 
+.section-link:hover {
+	color:#2828E8;
+}
+.wrapper
+{
+	width: 100%;
+	height: 100%;
+	display: table;
+}
+
+.main
+{
+	display: table-cell;
+	vertical-align: middle;
+	text-align: center;
+}
+
+.quiz-frame
+{
+	border: 0;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	border-radius: 10px;
+}
+
+.quiz__head
+{
+	font-size: 20pt;
+	margin: 10px;
+	margin-bottom: 50px;
+}
+
+.head__content 
+{
+	padding: 5px;
+}
+
+.quiz__body
+{
+	margin: 10px;
+}
+
+.quiz__footer 
+{
+	position: absolute;
+	bottom: 0;
+	display: block;
+	width: 100%;
+}
+
+.footer___content 
+{
+	padding: 5px;
+}
+
+.button
+{
+	border: 0;
+	border-radius: 10px;
+	background: #6477EB;
+	color: #fff;
+	padding: 10px 25px;
+	width: 70%;
+	font-size: 15pt;
+	display: block;
+	margin: 2px auto;
+	cursor: pointer;
+}
+
+.button_wrong 
+{
+	background: #EB6465;
+}
+
+.button_correct
+{
+	background: #5EB97D;
+}
+
+.button_passive
+{
+	background: #B3B3B3;
+}
+.test-header {
+	margin-bottom: 15px;
+	color: #19191B;
+	font-size:50px;
+	font-weight: 700;
+	margin-top:30px;
+	padding-top:15px;
+}
