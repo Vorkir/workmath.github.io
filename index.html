@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name = "viewport" content="width=device-width initial-scale=1.0">
+	<link rel = "stylesheet" href="css/style.css"> 
+	<link rel = "stylesheet" href="font/Poppins-ExtraLight.ttf">
+	<link rel = "stylesheet" href="font/Comfortaa.ttf">
+	<link rel = "stylesheet" href="font/Regular.ttf">
+
+	<title>WorkMath</title>
+</head>
+<body>
+	<header id = "header-main">
+		<div class = "container">
+			<div class = "header">
+				<div class = "logo">
+					<h1 class = "hidden">WorkMath</h1>
+					<img src = "img/logo.png" alt="">
+				</div>
+			</div>
+		</div>			
+	</header>
+
+	<main>
+		<div id = "home-section">
+			<div class = "container">
+				<div class = "home">
+					<div class = "home-left">
+						<b>Калькулятор систем счисления</b>
+						<p>Данный калькулятор переводит числа между наиболее популярными системами счисления: десятичной, двоичной, восьмеричной, шестнадцатеричной.</p>
+						<div class = "home-nav">
+							<button class = "header___btn">Проверь себя</button>
+						</div>
+					</div>
+						<div class = "myframe">
+							<div class = "shislo"> Ваше число </div><input type="text" name="number" id="number">
+								<div class = "shislo2">	Перевод из </div> 
+									<select class="element select medium" id="m" name="m"> 
+									<option value="" selected="selected"></option>
+									<option>2</option>
+									<option>8</option>
+									<option>10</option>
+									<option>16</option>
+									</select>
+								<div class = "shislo3">	В </div> 
+									<select class="element select medium" id="n" name="n">
+									<option value="" selected="selected"></option>
+									<option>2</option>
+									<option>8</option>
+									<option>10</option>
+									<option>16</option>
+									</select>
+								<button class = "header__btn" id = "count">Перевести</button> 
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<section id = "subscription-section">
+			<div class = "container">
+				<div class = "subscription">
+					<div class = "subscription-left">
+						<img src ="img/picture.png" style = "width:490px; height: 500px; margin-left: 0px; padding-top: 180px">
+					</div>
+					<div class = "subscription-right">
+						<h2 class = "section-header">Работа с калькулятором</h2>
+						<p class = "section-text">Для перевода десятичное число делим обычным способом, «в столбик». на основание. Для двоичной системы основание число 2, поскольку используем только два символа «0» и «1». Если в результате деления есть остаток, то ставим «1», если делится без остатка, то ставим «0». Полученное таким образом двоичное число записываем от последнего результата к первому — справа-налево.</p>
+						<a href = "#" class = "section-link">На главную</a>
+					</div>
+				</div>
+			</div>
+		</section>	
+
+<div class = "container">
+	<div class = "test-left">
+		<h2 class = "test-header"> Проверьте ваши знания </h2>
+		<div class="wrapper" style = "padding-left:300px; padding-top:100px";>
+			<iframe src="quiz.html" width="480" height="720" class="quiz-frame"></iframe>
+		</div>
+		<script type="text/javascript" src="scripts/app.js"></script>
+
+						
+<script>
+            function conwerter() {
+                var number = document.getElementById("number").value;
+                var m = +document.getElementById("m").value;
+                var n = +document.getElementById("n").value;
+
+                var res = parseInt(number, m).toString(n);
+
+                document.getElementById("result").innerHTML = alert("Результат: " + res);
+            }
+            document.getElementById("count").addEventListener("click", conwerter);
+
+</script>
+
+</body>	
+</html>
